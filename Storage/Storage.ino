@@ -67,8 +67,7 @@ int integration_time = (atime+1)*(astep+1)*(2.78e-3);
 int integration_buffer = 2;
 //sleep time while waiting for integration
 int integration_sleep = integration_time - integration_buffer;
-//GET RID OF LATER
-int loops = 0;
+
 /* ###################     2.1 DELAYS                             ################### */
 
 // Delay after turning an LED on before reading sensors.
